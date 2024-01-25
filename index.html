@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
+  <title>Dashboard &mdash; DISDIKBUD Prov. Kaltim </title>
+  <link rel="icon" href="img/logo/logo_disdik.png">
+
+  <!-- General CSS Files -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+  <!-- CSS Libraries -->
+
+  <!-- Template CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+
+<body>
+  <div id="app">
+    <div class="main-wrapper">
+      <div class="navbar-bg"></div>
+      <nav class="navbar navbar-expand-lg main-navbar">
+        <form class="form-inline mr-auto">
+          <ul class="navbar-nav mr-3">
+            <li><a href="#" data-toggle="sidebar" class="nav-link nav-link-lg"><i class="fas fa-bars"></i></a></li>
+            <li><a href="#" data-toggle="search" class="nav-link nav-link-lg d-sm-none"><i class="fas fa-search"></i></a></li>
+          </ul>
+          <div class="search-element">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search" data-width="250">
+            <button class="btn" type="submit"><i class="fas fa-search"></i></button>
+            <div class="search-backdrop"></div>
+            
+          </div>
+        </form>
+        <ul class="navbar-nav navbar-right">
+          <li class="dropdown"><a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
+            <img alt="image" src="img/avatar/avatar-1.png" class="rounded-circle mr-1">
+            <div class="d-sm-none d-lg-inline-block">Selamat Datang</div></a>
+            <div class="dropdown-menu dropdown-menu-right">
+              <div class="dropdown-title">SD Negeri 008 Samarinda Utara</div>
+              <a href="account_setting.html" class="dropdown-item has-icon">
+                <i class="far fa-user"></i> Profile
+              </a>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item has-icon text-danger">
+                <i class="fas fa-sign-out-alt"></i> Logout
+              </a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <div class="main-sidebar sidebar-style-2">
+        <aside id="sidebar-wrapper">
+          <div class="sidebar-brand">
+            <a href="index.html"><img src="img/logo/logo_disdik.png" alt="" width="35"> BKT Sekolah</a>
+          </div>
+          <div class="sidebar-brand sidebar-brand-sm">
+            <a href="index.html" class="navbar-brand mx-auto"><img src="img/logo/logo_disdik.png" alt="" width="35"></a>
+          </div>
+          <ul class="sidebar-menu">
+              <li class="menu-header">Dashboard</li>
+              <li class="active"><a class="nav-link" href="index.html"><i class="fas fa-gauge"></i> <span>Dashboard</span></a></li>
+              <li class="menu-header">Panel</li>
+              <li><a class="nav-link" href="peserta-didik.html"><i class="fas fa-user-group"></i> <span>Peserta Didik</span></a></li>
+              <li><a class="nav-link" href="peserta-sertifikasi.html"><i class="fas fa-user-group"></i> <span>Peserta Sertifikasi</span></a></li>
+              <li><a class="nav-link" href="perkategori.html"><i class="fas fa-layer-group"></i> <span>Perkategori</span></a></li>
+              <hr width="80%">
+              <li><a class="nav-link" href="upload-berkas.html"><i class="fas fa-file-arrow-up"></i> <span>Upload Berkas</span></a></li>
+              <li><a class="nav-link" href="calon-penerima.html"><i class="fas fa-user-check"></i> <span>Calon Penerima</span></a></li>
+              <hr width="80%">
+              <li><a class="nav-link" href="https://t.me/+RyVw4jXOwLY5MGQ1" target="_blank"><i class="fas fa-headset"></i> <span>Group Diskusi</span></a></li>
+              <li><a class="nav-link" href="tugas.html"><i class="fas fa-wrench"></i> <span>Tugas</span></a></li>
+              <li><a class="nav-link" href="https://ppid.disdikbud.kaltimprov.go.id/informasi/pusat-unduhan" target="_blank"><i class="fas fa-cloud-arrow-down"></i> <span>Pusat Unduhan</span></a></li>
+            </ul>
+        </aside>
+      </div>
+
+      <!-- Main Content -->
+      <div class="main-content">
+        <section class="section">
+          <div class="section-header">
+            <h1>Dashboard</h1>
+          </div>
+
+          <div class="section-body">
+            <div class="alert alert-primary shadow-sm">
+                <div class="alert-title">Syarat-syarat Beasiswa Stimulan Siswa sebagai berikut:</div>
+                <ol>
+                    <li>Siswa yang berasal dan menempuh Pendidikan di Kalimantan Timur.</li>
+                    <li>Nilai siswa di atas nilai Kriteria Ketuntasan Minimal (KKM) atau nilai ketuntasan.</li>
+                </ol>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6">
+                    <div class="card card-info">
+                        <div class="card-header">
+                          <h5>Pengumuman Terbaru</h5>
+                        </div>
+                        <div class="card-body bg-secondary">
+                            <div class="row">
+                                <div class="col-12">
+                                  <div class="activities">
+                                    <div class="activity">
+                                      <div class="activity-icon bg-primary text-white shadow-primary">
+                                        <i class="fas fa-comment-alt"></i>
+                                      </div>
+                                      <div class="activity-detail w-100">
+                                        <div class="mb-2">
+                                          <span class="text-job text-primary">2 min ago</span>
+                                          <span class="bullet"></span>
+                                          <a class="text-job" href="#">View</a>
+                                        </div>
+                                        <p>Sehubungan dengan sedang dilakukannya proses pencairan/penyaluran Beasiswa Kaltim Kategori Tuntas Tahap 1 ( APBD Murni 2023 ) melalui Bank Mandiri, BRI dan BTN, dengan ini dib</p>
+                                      </div>
+                                    </div>
+                                    <div class="activity">
+                                      <div class="activity-icon bg-primary text-white shadow-primary">
+                                        <i class="fas fa-arrows-alt"></i>
+                                      </div>
+                                      <div class="activity-detail">
+                                        <div class="mb-2">
+                                          <span class="text-job">1 hour ago</span>
+                                          <span class="bullet"></span>
+                                          <a class="text-job" href="#">View</a>
+                                          <div class="float-right dropdown">
+                                            <a href="#" data-toggle="dropdown"><i class="fas fa-ellipsis-h"></i></a>
+                                            <div class="dropdown-menu">
+                                              <div class="dropdown-title">Options</div>
+                                              <a href="#" class="dropdown-item has-icon"><i class="fas fa-eye"></i> View</a>
+                                              <a href="#" class="dropdown-item has-icon"><i class="fas fa-list"></i> Detail</a>
+                                              <div class="dropdown-divider"></div>
+                                              <a href="#" class="dropdown-item has-icon text-danger" data-confirm="Wait, wait, wait...|This action can't be undone. Want to take risks?" data-confirm-text-yes="Yes, IDC"><i class="fas fa-trash-alt"></i> Archive</a>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <p>Moved the task "<a href="#">Fix some features that are bugs in the master module</a>" from Progress to Finish.</p>
+                                      </div>
+                                    </div>
+                                    <div class="activity">
+                                      <div class="activity-icon bg-primary text-white shadow-primary">
+                                        <i class="fas fa-unlock"></i>
+                                      </div>
+                                      <div class="activity-detail">
+                                        <div class="mb-2">
+                                          <span class="text-job">4 hour ago</span>
+                                          <span class="bullet"></span>
+                                          <a class="text-job" href="#">View</a>
+                                          <div class="float-right dropdown">
+                                            <a href="#" data-toggle="dropdown"><i class="fas fa-ellipsis-h"></i></a>
+                                            <div class="dropdown-menu">
+                                              <div class="dropdown-title">Options</div>
+                                              <a href="#" class="dropdown-item has-icon"><i class="fas fa-eye"></i> View</a>
+                                              <a href="#" class="dropdown-item has-icon"><i class="fas fa-list"></i> Detail</a>
+                                              <div class="dropdown-divider"></div>
+                                              <a href="#" class="dropdown-item has-icon text-danger" data-confirm="Wait, wait, wait...|This action can't be undone. Want to take risks?" data-confirm-text-yes="Yes, IDC"><i class="fas fa-trash-alt"></i> Archive</a>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <p>Login to the system with ujang@maman.com email and location in Bogor.</p>
+                                      </div>
+                                    </div>
+                                    <div class="activity">
+                                      <div class="activity-icon bg-primary text-white shadow-primary">
+                                        <i class="fas fa-sign-out-alt"></i>
+                                      </div>
+                                      <div class="activity-detail">
+                                        <div class="mb-2">
+                                          <span class="text-job">12 hour ago</span>
+                                          <span class="bullet"></span>
+                                          <a class="text-job" href="#">View</a>
+                                          <div class="float-right dropdown">
+                                            <a href="#" data-toggle="dropdown"><i class="fas fa-ellipsis-h"></i></a>
+                                            <div class="dropdown-menu">
+                                              <div class="dropdown-title">Options</div>
+                                              <a href="#" class="dropdown-item has-icon"><i class="fas fa-eye"></i> View</a>
+                                              <a href="#" class="dropdown-item has-icon"><i class="fas fa-list"></i> Detail</a>
+                                              <div class="dropdown-divider"></div>
+                                              <a href="#" class="dropdown-item has-icon text-danger" data-confirm="Wait, wait, wait...|This action can't be undone. Want to take risks?" data-confirm-text-yes="Yes, IDC"><i class="fas fa-trash-alt"></i> Archive</a>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <p>Log out of the system after 6 hours using the system.</p>
+                                      </div>
+                                    </div>
+                                    <div class="activity">
+                                      <div class="activity-icon bg-primary text-white shadow-primary">
+                                        <i class="fas fa-trash"></i>
+                                      </div>
+                                      <div class="activity-detail">
+                                        <div class="mb-2">
+                                          <span class="text-job">Yesterday</span>
+                                          <span class="bullet"></span>
+                                          <a class="text-job" href="#">View</a>
+                                          <div class="float-right dropdown">
+                                            <a href="#" data-toggle="dropdown"><i class="fas fa-ellipsis-h"></i></a>
+                                            <div class="dropdown-menu">
+                                              <div class="dropdown-title">Options</div>
+                                              <a href="#" class="dropdown-item has-icon"><i class="fas fa-eye"></i> View</a>
+                                              <a href="#" class="dropdown-item has-icon"><i class="fas fa-list"></i> Detail</a>
+                                              <div class="dropdown-divider"></div>
+                                              <a href="#" class="dropdown-item has-icon text-danger" data-confirm="Wait, wait, wait...|This action can't be undone. Want to take risks?" data-confirm-text-yes="Yes, IDC"><i class="fas fa-trash-alt"></i> Archive</a>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <p>Removing task "Delete all unwanted selectors in CSS files".</p>
+                                      </div>
+                                    </div>
+                                    <div class="activity">
+                                      <div class="activity-icon bg-primary text-white shadow-primary">
+                                        <i class="fas fa-trash"></i>
+                                      </div>
+                                      <div class="activity-detail">
+                                        <div class="mb-2">
+                                          <span class="text-job">Yesterday</span>
+                                          <span class="bullet"></span>
+                                          <a class="text-job" href="#">View</a>
+                                          <div class="float-right dropdown">
+                                            <a href="#" data-toggle="dropdown"><i class="fas fa-ellipsis-h"></i></a>
+                                            <div class="dropdown-menu">
+                                              <div class="dropdown-title">Options</div>
+                                              <a href="#" class="dropdown-item has-icon"><i class="fas fa-eye"></i> View</a>
+                                              <a href="#" class="dropdown-item has-icon"><i class="fas fa-list"></i> Detail</a>
+                                              <div class="dropdown-divider"></div>
+                                              <a href="#" class="dropdown-item has-icon text-danger" data-confirm="Wait, wait, wait...|This action can't be undone. Want to take risks?" data-confirm-text-yes="Yes, IDC"><i class="fas fa-trash-alt"></i> Archive</a>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <p>Assign the task of "<a href="#">Redesigning website header and make it responsive AF</a>" to <a href="#">Syahdan Ubaidilah</a>.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="card card-statistic-1">
+                    <div class="card-icon bg-primary">
+                      <i class="fas fa-school"></i>
+                    </div>
+                    <div class="card-wrap">
+                      <div class="card-header">
+                        <h4>SATUAN PENDIDIK</h4>
+                      </div>
+                      <div class="card-body">
+                        76
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card card-statistic-1">
+                    <div class="card-icon bg-success">
+                      <i class="fas fa-book"></i>
+                    </div>
+                    <div class="card-wrap">
+                      <div class="card-header">
+                        <h4>PRESTASI AKADEMIK</h4>
+                      </div>
+                      <div class="card-body">
+                        99
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card card-statistic-1">
+                    <div class="card-icon bg-warning">
+                      <i class="fas fa-chalkboard-user"></i>
+                    </div>
+                    <div class="card-wrap">
+                      <div class="card-header">
+                        <h4>PRESTASI NON AKADEMIK</h4>
+                      </div>
+                      <div class="card-body">
+                        76
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card card-statistic-1">
+                    <div class="card-icon bg-info">
+                      <i class="fas fa-spell-check"></i>
+                    </div>
+                    <div class="card-wrap">
+                      <div class="card-header">
+                        <h4>KHUSUS</h4>
+                      </div>
+                      <div class="card-body">
+                        76
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card card-statistic-1">
+                    <div class="card-icon bg-danger">
+                      <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="card-wrap">
+                      <div class="card-header">
+                        <h4>SERTIFIKASI</h4>
+                      </div>
+                      <div class="card-body">
+                        76
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </section>
+      </div>
+      <footer class="main-footer">
+        <div class="footer-left">
+          Copyright &copy; 2023 <div class="bullet"></div> Dinas Pendidikan dan Kebudayaan Provinsi Kalimantan Timur
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <!-- General JS Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="js/stisla.js"></script>
+  <script src="https://kit.fontawesome.com/39f6e58ccc.js" crossorigin="anonymous"></script>
+
+  <!-- JS Libraies -->
+
+  <!-- Template JS File -->
+  <script src="js/scripts.js"></script>
+  <script src="js/custom.js"></script>
+
+  <!-- Page Specific JS File -->
+</body>
+</html>
