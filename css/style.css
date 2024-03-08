@@ -3595,6 +3595,7 @@ body:not(.sidebar-mini) .sidebar-style-2 .sidebar-menu li.active ul.dropdown-men
 }
 /* Satuan Pendidikan */
 
+
 @media (max-width: 992px) {
   .btn-grup{
     flex-direction: column;
